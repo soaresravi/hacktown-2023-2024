@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title> Jornada dos Técnicos </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <style>
+
+.design{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.texto_design{
+    font-size: 35px;
+
+}
+
+.conteiner_interior{
+    justify-content: space-between;
+    height: 50%;
+    width: 80%;
+    display: flex;
+}
+
+.texto_interior{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_design{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+
+}
+
+.box{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box1{
+    flex-grow: 1;
+}
+.box2{
+    flex-grow: 1;
+}
+.box2{
+    flex-grow: 1;
+}
+
+.img_design{
+    border-radius: 30px;
+}
+
+.img_interior{
+    width: 80%;
+    height: 80%;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="device-notification">
+  <a class="device-notification--logo" href="#">
+    <img src="assets/img/introduction-visual.png" alt="Logo">
+    <p>Jornada dos Técnicos</p>
+  </a>
+  <p class="device-notification--message">Blabnlabla</p>
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#">
+            <img src="assets/img/logo_preto.png" width="140px" alt="Logo" style="padding-top: 75px;">
+            <p>Jornada dos técnicos</p>
+          </a>
+          <button class="header--cta cta">Escolas Padre Anchieta</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Palestras</span></li>
+            <li><span>Informática</span></li>
+            <li><span>Administração</span></li>
+            <li><span>Design de Interiores</span></li>
+            <li><span>Nutrição</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Cursos<br>técnicos de<br>alto nível</h1>
+                <img src="assets/img/home-homem.png" alt="Welcome">
+              </div>
+              <div class="intro--options">
+                <a href="#">
+                  <h3>Palestras</h3>
+                  <p>Quarta-feira (18/09), em nosso anfieteatro, ocorreram palestras envolvendo inteligência emocional e marketing digital.</p>
+                </a>
+                <a href="#">
+                  <h3>Hacktown</h3>
+                  <p>Quinta-feira (19/09), os alunos de informática desenvolveram de um Web Site (Landing Page) sobre a Semana dos Cursos Técnicos para a divulgação do evento.</p>
+                </a>
+                <a href="#">
+                  <h3>Conversa com exs alunos</h3>
+                  <p>Sexta-feira (20/09), os alunos dos técnicos do Anchieta conversaram com exs alunos dos respectivos técnicos que atualmente trabalham na área de seu curso.</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Palestras</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#">
+                      <div class="slider--item-image">
+                        <img src="assets/img/palestra.jpg" alt="Desenvolvimento da palestra">
+                      </div>
+                      <p class="slider--item-title">Desenvolvimento da palestra</p>
+                      <p class="slider--item-description">Conforme a palestra acontecia, Ariel Monteoliva tirava dúvidas e realizava gincanas com os alunos, pedindo para que contassem experiências de suas vidas relacionadas ao tema. </p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#">
+                      <div class="slider--item-image">
+                        <img src="assets/img/palestra-juca.jpg" alt="Palestra Inteligência Emocional">
+                      </div>
+                      <p class="slider--item-title">Inteligência emocional</p>
+                      <p class="slider--item-description">Palestra feita por Antônio Carlos Andrade (Juca) sobre ansiedade e autoestima iniciada as 8h.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#">
+                      <div class="slider--item-image">
+                        <img src="assets/img/ariel-marketing.jpg" alt="Palestra Marketing Digital">
+                      </div>
+                      <p class="slider--item-title">Marketing digital</p>
+                      <p class="slider--item-description">Palestra feita por Ariel Monteoliva sobre marketing pessoal com atividade prática iniciada as 9h30.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="design">
+              <div class="conteiner_interior">
+                <span>
+                  <h3 class="texto_design">Técnico em <br>Informática</h3>
+                </span>
+                <img src="./assets/img/info-image-1.jpg" alt="" class="img_design img_interior" >
+              </div>
+              
+                 <div class="textos_interior">
+                 <div class="container_design">
+
+                   <div class="box box1">
+                     <img src="./assets/img/info-image-3.jpg" alt="" class="img_design">
+                     <h2>
+                       Informática
+                      </h2>
+                      <p>O aluno estuda e aprende os aspectos do <br> desenvolvimento de computadores, incluindo softwares e hardwares.</p>  
+                    </div>
+                    <div class="box box2">
+                      <img src="./assets/img/info-image-2.jpg" alt="" class="img_design">
+                      <h2>
+                        Projetos
+                      </h2>
+                      <p>No curso de informatica o estudante aprenderá sobre software e hardware</p>
+                  </div>
+                  </div>
+                </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="design">
+              <div class="conteiner_interior">
+                <span>
+                  <h3 class="texto_design">Técnico em <br>Administração</h3>
+                </span>
+                <img src="./assets/img/adm-image-3.jpg" alt="" class="img_design img_interior" >
+              </div>
+              
+                 <div class="textos_interior">
+                 <div class="container_design">
+
+                   <div class="box box1">
+                     <img src="./assets/img/adm-image-1.jpg" alt="" class="img_design">
+                     <h2>
+                       Administração
+                      </h2>
+                      <p>O administrador desempenha um papel fundamental no mundo dos negócios, <br> concentrando-se em planejar, organizar, liderar e controlar</p>  
+                    </div>
+                    <div class="box box2">
+                      <img src="./assets/img/adm-image-2.jpg" alt="" class="img_design">
+                      <h2>
+                        Projetos
+                      </h2>
+                      <p>O curso de administração nas Escolas Padre Anchieta fornece aos alunos <br> um alto nível educativo sobre como planejar, liderar e organizar projetos</p>
+                  </div>
+                  </div>
+                </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="design">
+              <div class="conteiner_interior">
+                <span>
+                  <h3 class="texto_design">Técnico em <br>Design<br> de Interiores</h3>
+                </span>
+                <img src="./assets/img/design.png" alt="" class="img_design img_interior" >
+              </div>
+              
+                 <div class="textos_interior">
+                 <div class="container_design">
+
+                   <div class="box box1">
+                     <img src="./assets/img/design-image-1.jpg" alt="" class="img_design">
+                     <h2>
+                       Design De Interiores
+                      </h2>
+                      <p>O designer de interiores planeja<br> e projeta os mais diferentes espaços internos residenciais,<br> comerciais e institucionais, distribuindo os elementos<br> pensando na estética, conforto, saúde e segurança dos usuários</p>  
+                    </div>
+                    <div class="box box2">
+                      <img src="./assets/img/design-image-2.jpg" alt="" class="img_design">
+                      <h2>
+                        Projetos
+                      </h2>
+                      <p>No Anchieta, o Curso técnico de <br>design de interiores oferece ensinos<br> e projetos para auxiliar na carreira profissional</p>
+                  </div>
+                  </div>
+                </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="design">
+              <div class="conteiner_interior">
+                <span>
+                  <h3 class="texto_design">Técnico em <br>Nutrição <br> e Dietética</h3>
+                </span>
+                <img src="./assets/img/nutri-image-1.png" alt="" class="img_design img_interior" >
+              </div>
+              
+                 <div class="textos_interior">
+                 <div class="container_design">
+
+                   <div class="box box1">
+                     <img src="./assets/img/nutri-image-3.jpg" alt="" class="img_design">
+                     <h2>
+                       Nutrição
+                      </h2>
+                      <p>Nutricão aprenderá sobre os tipos de alimentos, <br>o corpo humano e seu funcionamento. Estudará técnicas para orientar <br> as pessoas com uma alimentação equilibrada de acordo <br>com os diferentes biotipos e rotinas</p>  
+                    </div>
+                    <div class="box box2">
+                      <img src="./assets/img/nutri-image-2.jpg" alt="" class="img_design">
+                      <h2>
+                        Projetos
+                      </h2>
+                      <p>No curso de nutrição os alunos aprendem o efeito dos alimentos no corpo humano e como ensina-los a <br> regulamentar a comida e para indicar que um alimento ou cardápio elaborado está isento<br> de determinadas substâncias ou nutrientes, como açúcar, sal, gordura.</p>
+                  </div>
+                  </div>
+                </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Palestras</li>
+    <li>Informática</li>
+    <li>Administração</li>
+    <li>Design de interiores</li>
+    <li>Nutrição</li>
+  </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+</body>
+</html>
